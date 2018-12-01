@@ -97,14 +97,10 @@ componentWillUnmount() {
 
    formatTime(time) {
      const minutes = Math.floor(time / 60);
-     const seconds = Math.floor(time % 60);
+     const seconds = Number((time % 60) / 100).toFixed(2).substr(2,3);
      const songTime = (minutes + ":" + seconds);
-     if (songTime === null) {
-       return "-:--"
-     } else {
-       return songTime;
+     return (songTime === null ? "-:--" : songTime);
    }
- }
 
    handleVolumeChange(e) {
      const newVolume = e.target.value;
