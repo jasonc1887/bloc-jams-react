@@ -30,3 +30,23 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-bar {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  background: LightCyan;
+  text-align: left;
+  display: block;
+  color: black;
+  margin: 10px 100px;
+}
+
+.main-logo {
+  font-family: sans-serif;
+  color: DarkCyan;
+  font-size: 75px;
+  background: black;
+  margin: 10px 100px;
+}

@@ -1,0 +1,30 @@
+#album-cover-art {
+  height: 400px;
+  width: 400px;
+
+}
+
+.album-details {
+  background: white;
+  margin: 10px 520px 10px 520px;
+}
+
+#song-list {
+  background: white;
+  margin: -10px 520px 10px 520px;
+}
+
+#album-title {
+  font-size: 50px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.artist {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#release-info {
+  font-size: 15px;
+}

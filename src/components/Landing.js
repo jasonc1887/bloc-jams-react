@@ -1,4 +1,5 @@
 import React from 'react';
+import './landing.css'
 
 const Landing = () => (
   <section className="landing">
@@ -7,12 +8,12 @@ const Landing = () => (
   <section className="selling-points">
       <div className="point">
         <h2 className="point-title">Choose your music</h2>
-        <p className="point-description">The World is full of music; why shoudld
+        <p className="point-description">The World is full of music; why should
           you have to listen to music that someone else chose?</p>
       </div>
       <div className ="point">
         <h2 className="point-title">Unlimited, streaming, ad-free</h2>
-        <p className="point-description">No arbitrary limits. No distractions</p>
+        <p className="point-description">No arbitrary limits. No distractions.</p>
       </div>
       <div classsName="point">
         <h2 className="point-title">Mobile enabled</h2>
