@@ -142,15 +142,14 @@ componentWillUnmount() {
 
   render() {
     return (
-      <section className="album">
-        <section id="album-info">
+      <section id="main">
           <img id="album-cover-art" src={this.state.album.albumCover} alt={this.state.album.title}/>
+          <div id="album">
           <div className="album-details">
             <h1 id="album-title">{this.state.album.title}</h1>
             <h2 className="artist">{this.state.album.artist}</h2>
             <div id="release-info">{this.state.album.releaseInfo}</div>
           </div>
-        </section>
         <table id="song-list" style={{display: 'flex', justifyContent: 'center'}}>
           <colgroup>
             <col id="song-number-column" />
@@ -184,6 +183,7 @@ componentWillUnmount() {
           handleTimeChange={(e) => this.handleTimeChange(e)}
           handleVolumeChange={(e) => this.handleVolumeChange(e)}
         />
+        </div>
       </section>
     );
   }

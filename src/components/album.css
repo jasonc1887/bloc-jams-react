@@ -1,30 +1,15 @@
+#main {
+  display: flex;
+  flex-direction: row;
+}
+
 #album-cover-art {
-  height: 400px;
-  width: 400px;
-
+  margin: 10px 100px;
 }
 
-.album-details {
-  background: white;
-  margin: 10px 520px 10px 520px;
-}
-
-#song-list {
-  background: white;
-  margin: -10px 520px 10px 520px;
-}
-
-#album-title {
-  font-size: 50px;
-  padding: 10px 10px;
-  margin: 10px 10px;
-}
-
-.artist {
-  font-size: 30px;
+#album {
+  border: 1px solid black;
   margin: 10px;
-}
-
-#release-info {
-  font-size: 15px;
+  width: 568px;
+  text-align: center;
 }
