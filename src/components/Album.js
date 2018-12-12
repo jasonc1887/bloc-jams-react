@@ -163,14 +163,14 @@ componentWillUnmount() {
                   onMouseEnter={() => this.handleMouseEnter(song)}
                   onMouseLeave={() => this.handleMouseLeave(song)}>
                 <td>{this.handleIcon(song, index)}</td>
-                <td key="title">{song.title}</td>
+                <td key="title" id="title">{song.title}</td>
                 <td key="duration" formatTime={this.formatTime}>{this.formatTime(song.duration)}</td>
               </tr>
              )
             }
           </tbody>
         </table>
-        <PlayerBar
+        <PlayerBar className="player-bar"
           isPlaying={this.state.isPlaying}
           currentSong={this.state.currentSong}
           currentTime={this.audioElement.currentTime}

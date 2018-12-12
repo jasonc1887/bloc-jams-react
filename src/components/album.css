@@ -13,3 +13,27 @@
   width: 568px;
   text-align: center;
 }
+
+.player-bar {
+  margin: 0 auto;
+  padding: 35px;
+}
+
+#album-title {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.artist {
+  font-size: 65px;
+  margin: -5px;
+}
+
+#release-info {
+  margin: 5px;
+}
+
+#title {
+  font-weight: bold;
+  padding: 10px;
+}
